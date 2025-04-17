@@ -7,7 +7,8 @@ n = 7;
 colors = ['#ff5959', '#76ff84', '#8efff6', '#9185ff', '#e883ff', '#ff83e4'];
 
 for (i = 1; i <= n; i++) {
-  const size = (100 / n) * i;
+  // const size = (100 / n) * i;
+  const size = 60 + i * 5;
   //const s = size <= 85 && size + 10;
   const div = document.createElement('div');
   div.id = i;
@@ -42,14 +43,14 @@ for (i = 1; i <= n; i++) {
       article.insertBefore(articles[selected].children[0], article.children[0]);
       selected = -1;
     } else {
-      [...articles].forEach((a, i) => {
-        a.children.length > 0 &&
-          a.children.length > 0 &&
-          (a.children[0].classList = '');
-      });
+      // [...articles].forEach((a, i) => {
+      //   a.children.length > 0 &&
+      //     a.children.length > 0 &&
+      //     (a.children[0].classList = '');
+      // });
       document.body.style.animation = 'error 0.4s ease-in';
       document.body.addEventListener("animationend", () => document.body.style.animation = "")
-      selected = -1;
+      // selected = -1;
     }
   });
 });
