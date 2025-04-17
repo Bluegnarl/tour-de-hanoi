@@ -93,3 +93,15 @@ nav {
         background: #151515;
     }
 }
+
+@keyframes pulse-gradient {
+    0% {
+        background: radial-gradient(circle at center, #3d196c, #151515 40%);
+    }
+    50% {
+        background: radial-gradient(circle at center, #3d196c, #151515 70%);
+    }
+    100% {
+        background: radial-gradient(circle at center, #3d196c, #151515 40%);
+    }
+}
