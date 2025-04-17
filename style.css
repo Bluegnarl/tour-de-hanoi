@@ -64,7 +64,7 @@ div.selected {
 
 footer {
     display: flex;
-    min-height: 8%;
+    min-height: 50px;
     gap: 8px;
 }
 
