@@ -1,93 +1,94 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  padding: 24px;
-  gap: 8px;
-  background: #151515;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 24px;
+    gap: 8px;
+    background: #151515;
 }
 
 main {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  gap: 8px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 8px;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  width: 33%;
-  height: 100%;
-  justify-content: flex-end;
-  gap: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 8px;
 }
 
 article {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  gap: 8px;
-  justify-content: flex-end;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 article:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background: #5a5a5a;
-  border-radius: 16px;
-  color: rgb(30, 30, 30);
-  font-size: 1.5rem;
-  font-family: sans-serif;
-  user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background: #5a5a5a;
+    border-radius: 16px;
+    color: rgb(30, 30, 30);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    user-select: none;
 }
 
 div.selected {
-  filter: brightness(0.5);
+    filter: brightness(0.5);
 }
 
 footer {
-  display: flex;
-  min-height: 8%;
-  gap: 8px;
+    display: flex;
+    min-height: 8%;
+    gap: 8px;
 }
 
 nav {
-  display: flex;
-  width: 100%;
-  min-height: 8%;
-  background: #ffffff;
-  border-radius: 16px;
-  color: rgb(30, 30, 30);
-  font-size: 1.5rem;
-  font-family: sans-serif;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    width: 100%;
+    min-height: 8%;
+    background: #ffffff;
+    border-radius: 16px;
+    color: rgb(30, 30, 30);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes error {
-  0% {
-    background: #151515;
-  }
-  50% {
-    background: #831717;
-  }
-  100% {
-    background: #151515;
-  }
+    0% {
+        background: #151515;
+    }
+    50% {
+        background: #831717;
+    }
+    100% {
+        background: #151515;
+    }
 }
